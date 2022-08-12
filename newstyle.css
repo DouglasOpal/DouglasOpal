@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    line-height: 1.5rem;
+}
+/* CSS FOR THE NAVIGATION BAR */
+.logo{
+    align-self: center;
+    font-size: xx-large;
+    color: #FAD02C ;
+    font-weight: bolder;
+}
+
+.nav-containner{
+    display: flex;
+    background-color:#333652;
+    flex-direction:row;
+    flex-wrap: wrap;
+    align-content: stretch;
+    color: #E9EAEC;
+    justify-content: space-around;
+    height: 60px;
+    width: auto;
+    
+}
+.nav-containner > ul{
+    list-style: none;
+    display: flex;
+    margin-left: 40px;
+    align-self: center;
+    }
+    .nav-containner > ul >li{
+        margin-right: 40px;
+        }
+ .nav-containner > ul >li>a{
+        color: #E9EAEC;
+        text-decoration: none;
+            }
+
+/*Creating CSS for the Header*/
+
+.container{
+    background-color: #90ADC6;
+    display: flex;
+    justify-content: space-around;
+}
+
+.intro{
+    color: #E9EAEC;
+    align-self: center;
+    line-height: 2.5rem;
+}
+.intro > h1{
+    font-size: 45px;
+    font-weight: bold;
+
+}
+
+.intro > p{
+    font-size: 20px;
+
+}
+
+.btn{
+    height: 40px;
+    width: 150px;
+    display: flex;
+    background-color: #333652;
+    border: 4px solid #FAD02C;
+    border-radius: 25px ;
+    margin-left: 100px;
+    margin-top: 50px;
+
+}
+.btn > a{
+    text-decoration: none;
+    color: #E9EAEC;
+    align-self: center;
+    margin-left: 10px;
+}
+.btn > a:hover{
+    color: #FAD02C;
+    font-weight: bold;
+}
+
+/*css for the About us */
+.about-containner{
+    display: flex;
+    padding: 5px;
+    justify-content: space-around;
+    background-color: #333652;
+
+}
+
+.about-us{
+    margin-top: 10px;
+    border-top: 4px solid #333652;
+}
+.content-image{
+    width: 800px;
+}
+.content-image > img{
+    max-width: 100%;
+    object-fit: cover;
+    border: 4px solid #E9EAEC;
+    border-radius: 5px;
+}
+
+.content > h2{
+    color: #E9EAEC;
+    font-weight: bold;
+    padding: 10px;
+}
+.content > blockquote{
+    padding: 10px;
+    color: #E9EAEC;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.content > ul >  li>a{
+    text-decoration: none;
+    color: #FAD02C;
+    margin-left: 50px;
+}
+
+.content > ul >  li>a:hover{
+    color: #E9EAEC;
+}
+
+/*the service section-cards*/
+
+.intro-serve{
+    color: #E9EAEC;
+    position: absolute;
+    margin-left: 40%;
+}
+
+.service-cards{
+    display: flex;
+    align-content: stretch;
+    justify-content: space-around;
+    margin-top: 10px;
+    border-top: 2px solid #90ADC6;
+    padding: 20px;
+    flex-wrap: wrap;
+    background-image: url(/resources/image/backg.jpg);
+    height: 500px;
+    object-fit: fill;
+    
+}
+.card{
+    background-color:#E9EAEC;
+    width: 300px;
+    opacity: 70%;
+    box-shadow: #333652;
+    border-radius: 15px;
+    padding: 10px;
+    margin-top: 50px;
+
+}
+.f-ont{
+    opacity: 100%;
+    padding: 10px;
+}
+.card > i{
+    color:#333652;
+}
